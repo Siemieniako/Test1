@@ -6,3 +6,4 @@ SELECT  schm.name+'.'+objt.name Reference
   JOIN sys.schemas schm ON objt.schema_id = schm.schema_id
  WHERE stat.index_id < 2 AND schm.name <> 'sys'
  GROUP BY schm.name+'.'+objt.name
+Tedst
